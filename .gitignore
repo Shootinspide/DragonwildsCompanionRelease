@@ -1,0 +1,15 @@
+# Release binaries are attached to GitHub Releases, not committed to Git.
+*.exe
+*.zip
+*.partial
+*.sig
+update-manifest.json
+
+# Local editor metadata.
+.idea/
+
+# Never commit publisher secrets.
+*.pem
+*.pfx
+*.p12
+
